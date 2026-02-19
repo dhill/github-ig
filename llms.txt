@@ -1,0 +1,20 @@
+# fhir.example#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [MyPatient](StructureDefinition-MyPatient.md)
+
+### ImplementationGuides
+
+* [githubig](index.md)
+
+### Examples
+
+* [PatientExample (Patient)](Patient-PatientExample.md)

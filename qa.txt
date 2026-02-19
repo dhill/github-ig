@@ -1,0 +1,38 @@
+githubig : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 1
+IG Publisher Version: 2.1.1
+Generated Thu Feb 19 20:54:52 UTC 2026. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 17 / 4 / 0
+ /home/runner/work/github-ig/github-ig/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 1 / 1
+ /home/runner/work/github-ig/github-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /home/runner/work/github-ig/github-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
+</table>
+== n/a ==
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 542, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 756, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 2071, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2462, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2017, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2307, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/a at Line 194, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/a at Line 202, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fhir.example.json ==
+WARNING: ImplementationGuide/fhir.example: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
